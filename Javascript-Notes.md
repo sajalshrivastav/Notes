@@ -1,11 +1,3 @@
----
-title: DSA With JavaScript
-uuid: 31ee5802-250a-11f0-8ee0-6d9d233fb1ee
-version: 1346
-created: '2025-04-29T20:26:56+05:30'
-tags:
-  - javascript
----
 
 # **Phase 1 - Basics Of JavaScript (Part 1)**
 

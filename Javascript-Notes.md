@@ -1,11 +1,3 @@
----
-title: DSA With JavaScript
-uuid: 31ee5802-250a-11f0-8ee0-6d9d233fb1ee
-version: 1346
-created: '2025-04-29T20:26:56+05:30'
-tags:
-  - javascript
----
 
 # **Phase 1 - Basics Of JavaScript (Part 1)**
 
@@ -23,19 +15,10 @@ JavaScript is the most widely used language for web development. It powers both 
 
     - Data structures and algorithm practice (LeetCode, HackerRank)
 
-**Video Reference:**\
-Akshay Saini – [Namaste JavaScript Playlist](https://www.youtube.com/playlist?list=PLlasXeu85E9cQ32gLCvAvr9vNaUccPVNP)\
+**Video Reference:**
+Akshay Saini – [Namaste JavaScript Playlist](https://www.youtube.com/playlist?list=PLlasXeu85E9cQ32gLCvAvr9vNaUccPVNP)
 Start with:  [How Javascript works](https://youtu.be/ZvbzSrg0afE?si=ujEB--eTxw086qNu) 
 
-\
-
-\
-
-\
-
-\
-
-\
 
 ## **2. What is an Execution Context?**<!-- {"collapsed":true} -->
 
@@ -64,7 +47,7 @@ function sayHello() {
 sayHello();
 ```
 
-\
+
 **What happens under the hood:**
 
 - JS creates a GEC first.
@@ -75,20 +58,17 @@ sayHello();
 
 - Inside `sayHello`, a new FEC is created.
 
-**Akshay Saini Explanation Video:**\
+**Akshay Saini Explanation Video:**
 [Episode 2 - Execution Context](https://www.youtube.com/watch?v=ylakWCz3B5g) 
 
-\
 
 ## 3**. JavaScript is Synchronous and Single-Threaded.**<!-- {"collapsed":true} -->
 
-\
 
 - Synchronous: Executes one line at a time.
 
 - Single-threaded: Only one call stack; one operation at a time.
 
-\
 
 ```c
 code :
@@ -105,7 +85,6 @@ End
 
 - No multitasking happens.
 
-\
 
 ## **4. Call Stack in JavaScript**<!-- {"collapsed":true} -->
 
@@ -119,7 +98,6 @@ function two() {
 one();
 ```
 
-\
 
 Call Stack Flow:
 
@@ -132,12 +110,6 @@ Call Stack Flow:
 - one() finishes → popped
 
 Akshay Saini Video :[Execution and Call Stack ](https://youtu.be/iLWTnMzWtj4?si=iqR2qcxdoBJMe7KL) 
-
-\
-
-\
-
-\
 
 ## **5. Objects in JavaScript**<!-- {"collapsed":true} -->
 
@@ -155,7 +127,6 @@ let person = {
 };
 ```
 
-\
 
 Accessing properties:
 
@@ -204,20 +175,14 @@ const car = {
 car.displayInfo(); // Toyota Camry
 ```
 
-\
-
-\
 
 | | | |
 |-|-|-|
 |**Video Reference:-** |[Objects](https://youtu.be/vVYOHmqQDCU?si=H7OIgYylq2xBmYpJ)  ||
-\
 
 ## **6. Arrays In Javascript    Video Reference  :-**[ Arrays in JavaScript](https://youtu.be/cejBux2gtEE?si=14b3zLbL-yxa_0J9)<!-- {"collapsed":true} -->
 
 **Theory:** Arrays are ordered collections of values. They can hold elements of any type and can be accessed using indices.
-
-\
 
 ```
 Syntax: let fruits = ["Apple", "Banana", "Mango"];
@@ -236,15 +201,11 @@ fruits.push("Orange");
 
 Removing elements:  
 
-\
-
 ```
 fruits.pop();        // Removes last
 fruits.shift();      // Removes first
 fruits.unshift("Kiwi");  // Adds to beginning
 ```
-
-\
 
 Looping over an array:
 
@@ -253,8 +214,6 @@ for (let fruit of fruits) {
   console.log(fruit);
 }
 ```
-
-\
 
 ## **7.Functions in JavaScript  Video Reference : -** [Funtions](https://youtu.be/FOD408a0EzU?si=bFI9KNbyceDB80Ww)<!-- {"collapsed":true} -->
 
@@ -268,8 +227,6 @@ function greet(name) {
 }
 ```
 
-\
-
 Function Expression:
 
 ```
@@ -278,23 +235,16 @@ const greet = function(name) {
 };
 ```
 
-\
-
 Arrow Functions (ES6):
 
 ```
 const greet = (name) => "Hello " + name;
 ```
 
-\
 
 ```
 let fruits = ["apple", "banana", "mango"];
 ```
-
-\
-
-\
 
 **Array Methods:**
 
@@ -310,9 +260,7 @@ let fruits = ["apple", "banana", "mango"];
 |`indexOf()`<!-- {"cell":{"colwidth":109}} -->|Finds index of value -----------------------------------------------------------------------------------fruits.indexOf()|
 |`includes()`<!-- {"cell":{"colwidth":109}} -->|Checks if value exists  -------------------------------------------------------------------------------fruits.includes()|
 |`join()`<!-- {"cell":{"colwidth":109}} -->|Converts array to string  -----------------------------------------------------------------------------fruits.join()|
-\
 
-\
 
 Arrays vs Objects
 
@@ -324,9 +272,6 @@ Arrays vs Objects
 |**Built-in Ops**<!-- {"cell":{"colwidth":174}} -->|Rich with many methods<!-- {"cell":{"colwidth":254}} -->|Limited built-in methods<!-- {"cell":{"colwidth":223}} -->|
 **Example:** Use array for list of items; use object for user profile.
 
-\
-
-\
 
 1. Nested Objects and Arrays
 
@@ -346,16 +291,11 @@ const company = {
 
 Accessing:
 
-\
-
 ```
 console.log(users[1].name);         // Bob
 console.log(company.employees[0]); // Alice
 ```
 
-\
-
-\
 
 ## **8.Scope and Closures Video Reference :-** [Closure and Scope](https://youtu.be/VaH09NXQZ58?si=KWcELPBxgcAOdo3N)<!-- {"collapsed":true} -->
 
@@ -399,11 +339,9 @@ function foo() {
 }
 ```
 
-\
 
 **Let and Const are not hoisted the same way** (they are hoisted but not initialized).
 
-\
 
 ## **10.Higher Order Functions   Video Reference : -** [Higher Order Function](https://youtu.be/HkWxvB1RJq0?si=TMg6nVs-H2kuUZrU)<!-- {"collapsed":true} -->
 
@@ -423,7 +361,6 @@ function processGreeting(greetingFunction, name) {
 processGreeting(greet, "John");  // Output: Hello, John
 ```
 
-\
 
 Example 2: Returning a function
 
@@ -438,13 +375,10 @@ const double = multiplier(2);
 console.log(double(5)); // Output: 10
 ```
 
-\
 
 ## **11.Callback Functions   Video Reference : -** [Callback Funtions](https://youtu.be/btj35dh3_U8?si=7nfYLqgxajjUkyvA)<!-- {"collapsed":true} -->
 
 A **callback** is a function passed into another function as an argument and is executed later.
-
-\
 
 ```
 Example : 
@@ -461,11 +395,9 @@ fetchData(function(data) {
 });
 ```
 
-\
 
 ## **12.Array Methods - forEach, map, filter, reduce  Video Reference : -** [Methods](https://youtu.be/OMoxLUxW7Wc?si=pXzctlPaegjLqyfK)<!-- {"collapsed":true} -->
 
-\
 
 ```
 For Each 
@@ -489,11 +421,10 @@ reduce
 let sum = nums.reduce((acc, curr) => acc + curr, 0);  // 6
 ```
 
-\
 
 ## **13. Recursion – Foundation of Problem Solving  Video Refernce :-** [Recursion](https://youtu.be/DICBCBZn_L4?si=M6LeBTSdfNgO6XTe)  [Recursion - 2](https://youtu.be/51aNw5ShvmQ?si=vE8APQ-fgkioviRp)<!-- {"collapsed":true} -->
 
-**What is Recursion?**\
+**What is Recursion?**
 Recursion is a process in which a function calls itself directly or indirectly to solve a problem.
 
 **Why use it?**
@@ -508,7 +439,6 @@ Recursion is a process in which a function calls itself directly or indirectly t
 
 1. **Recursive Case** – The actual recursion step.
 
-\
 
 ```
 function countDown(n) {
@@ -522,7 +452,6 @@ function countDown(n) {
 countDown(5);
 ```
 
-\
 
 Common Problems:
 
@@ -532,8 +461,7 @@ Common Problems:
 
 - Sum of digits
 
-- Reverse string\
-\
+- Reverse string
 Recursion vs Iteration
 
 | | | |
@@ -542,7 +470,6 @@ Recursion vs Iteration
 |**Uses stack**<!-- {"cell":{"colwidth":160}} -->|Yes (Call Stack)<!-- {"cell":{"colwidth":228}} -->|No<!-- {"cell":{"colwidth":220}} -->|
 |**Readability**<!-- {"cell":{"colwidth":160}} -->|Cleaner for some tasks<!-- {"cell":{"colwidth":228}} -->|Often more efficient<!-- {"cell":{"colwidth":220}} -->|
 |**Performance**<!-- {"cell":{"colwidth":160}} -->|Slower if not optimized<!-- {"cell":{"colwidth":228}} -->|Faster<!-- {"cell":{"colwidth":220}} -->|
-\
 
 1. Reverse a String using Recursion
 
@@ -555,7 +482,6 @@ function reverse(str) {
 console.log(reverse("hello")); // "olleh"
 ```
 
-\
 
 1. Palindrome Check with Recursion<!-- {"offset":1} -->
 
@@ -579,19 +505,16 @@ Use recursion when:
 
 - You want clean, elegant code over performance.
 
-\
 
 Tail Recursion (Conceptual)
 
 - Some languages support **tail call optimization**. JavaScript does **not** optimize tail-recursive calls in most engines.
 
-\
 
 ## **14.Memoization Video Reference : -**  [Memoization -Complete master class](https://youtu.be/rPEMYhpmcXY?si=4GQhW3k8tZascIku)<!-- {"collapsed":true} -->
 
 - Memoization is a technique to cache function results to avoid redundant calculations.
 
-\
 
 ```
 function memoize(fn) {
@@ -616,11 +539,6 @@ console.log(memoizedSquare(5));  // 25
 console.log(memoizedSquare(5));  // Cached: 25
 ```
 
-\
-
-\
-
-\
 
 ## **15. Time and Space Complexity Basics   Video Reference :-** [Video 1](https://youtu.be/LaexPVi1VRE?si=I4YXEeG5h95bEwwF)  [Video 2](https://youtu.be/FPu9Uld7W-E?si=-1xccXuYV7fKvZSR)  [Video 3](https://youtu.be/PwKv8fOcriM?si=6Q1v5VKSzTeuIaGx)<!-- {"collapsed":true} -->
 
@@ -650,7 +568,6 @@ function printAllItems(arr) {
 
 -  How much memory (RAM) an algorithm needs as input size grows.
 
-\
 
 ## **16.Advanced Array Operations, Spread/Rest, and Destructuring**<!-- {"collapsed":true} -->
 
@@ -727,7 +644,6 @@ const result = [1, 2, 3, 4, 5]
 console.log(result); // [20, 40]
 ```
 
-\
 
 ## 1**7.Understanding Call Stack and Execution Context  Video Reference : -** [Call Stack ](https://youtu.be/fFd8OhrHfIM?si=ssuskO0IB8LbxtGK)<!-- {"collapsed":true} -->
 
@@ -745,7 +661,6 @@ Each time a function is called, a new **execution context** is created. The exec
 
 - **`this` Keyword**: Refers to the object to which the function belongs.
 
-\
 
 ### Call Stack Example
 
@@ -793,7 +708,6 @@ When `a()` is called:
 
 After each function finishes, its execution context is popped from the stack.
 
-\
 
 ### Understanding Execution Context
 
@@ -801,7 +715,6 @@ After each function finishes, its execution context is popped from the stack.
 
 - **Function Execution Context**: Created when a function is called, and each function has its own context.
 
-\
 
 ### Stack Overflow
 
@@ -817,7 +730,6 @@ function recursive() {
 recursive();  // Will cause stack overflow
 ```
 
-\
 
 ### The Role of `this` in Execution Context
 
@@ -831,7 +743,6 @@ Closures can be affected by the call stack. A closure is created when a function
 
 Example:
 
-\
 
 ```
 function outer() {
@@ -848,25 +759,19 @@ closure();  // 10
 
 Even though the `outer` function has finished executing, the closure still retains access to the variable `x`.
 
-\
 
 ### Call Stack and Performance
 
 The call stack size and function execution can impact performance. Deep recursion or a large number of function calls may cause stack overflow errors or slow down the program.
 
-\
-
-\
 
 ### Visualizing Call Stack with Debugging
 
 Using browser developer tools, you can observe the call stack in real-time by setting breakpoints or stepping through the code. This is helpful for debugging recursive functions or tracking the execution flow of your program.
 
-\
 
 ## **18.Understanding the Event Loop  Video Reference :-** [Event Loop](https://youtu.be/8zKuNo4ay8E?si=iRnUx56R1Kn2v3C7) <!-- {"collapsed":true} -->
 
-\
 
 ### **What is the Event Loop?**
 
@@ -906,9 +811,7 @@ setTimeout(() => {
 console.log('End');  // Synchronous task
 ```
 
-\
-
-**\
+**
 Execution Flow:**
 
 1. The synchronous code `console.log('Start')` is executed first.
@@ -923,7 +826,6 @@ Execution Flow:**
 
 **Output:**
 
-\
 
 ```
 Start
@@ -931,7 +833,6 @@ End
 Inside setTimeout
 ```
 
-\
 
 ### **Microtasks vs Macrotasks**
 
@@ -943,7 +844,6 @@ The event loop processes tasks in two categories: **microtasks** and **macrotask
 
 The event loop gives priority to **microtasks** before executing **macrotasks**. After each macrotask is completed, the event loop checks the microtask queue for pending tasks.
 
-\
 
 ```
 Microtask Example:
@@ -957,7 +857,6 @@ Promise.resolve().then(() => {
 console.log('End');
 ```
 
-\
 
 **Execution Flow:**
 
@@ -981,15 +880,15 @@ Inside Promise
 
 The event loop enables JavaScript to handle asynchronous operations efficiently. It allows I/O-bound tasks, such as network requests, to be executed without blocking the execution of other tasks.
 
-\
+
 
 ### Understanding Asynchronous JavaScript
 
-\
+
 
 In JavaScript, most operations, such as DOM manipulation, HTTP requests, and timers, are asynchronous. The event loop and its associated components (like the message queue and Web APIs) enable the handling of these asynchronous operations in a non-blocking manner.
 
-\
+
 
 ### Event Loop and Performance
 
@@ -997,7 +896,6 @@ Although the event loop is powerful, excessive use of asynchronous tasks (especi
 
 ### Troubleshooting Event Loop Issues
 
-\
 
 Common event loop issues include:
 
@@ -1005,18 +903,16 @@ Common event loop issues include:
 
 - **Blocking the Event Loop**: Heavy synchronous tasks or long-running loops can block the event loop, leading to poor application performance.
 
-\
 
 ## **19. OOPS (Object Oriented Programming)**<!-- {"collapsed":true} -->
 
-\
 
 ### 🧠 OOPS in JavaScript — Simple Notes + Internal Explanation
 
 ### 🔹 What is OOPS?
 
-OOPS stands for **Object-Oriented Programming System**.\
-It’s a way to organize code using objects.\
+OOPS stands for **Object-Oriented Programming System**.
+It’s a way to organize code using objects.
 **Objects** = Data + Functions bundled together.
 
 Example:
@@ -1078,7 +974,7 @@ p1.greet(); // Hello from Alice
 
 🧠 **Internal working:**
 
-- JavaScript links objects using `\[\[Prototype\]\]`.
+- JavaScript links objects using `[[Prototype]]`.
 
 - When `p1.greet()` is called, JS looks:
 
@@ -1243,11 +1139,6 @@ const p = new Person("Bob", 30);
 
 - Returns `obj`
 
-\
-
-\
-
-\
 
 
 ---
@@ -1260,7 +1151,7 @@ Here’s a **simple and complete explanation of Prototypes in JavaScript**, incl
 
 ### 🔹 What is a Prototype?
 
-- In JavaScript, **every object has a hidden internal property** called `\[\[Prototype\]\]`.
+- In JavaScript, **every object has a hidden internal property** called `[[Prototype]]`.
 
 - It acts like a **blueprint** from which the object can **inherit properties and methods**.
 
@@ -1268,7 +1159,7 @@ Here’s a **simple and complete explanation of Prototypes in JavaScript**, incl
 
 ### 📦 Real Life Analogy:
 
-> Imagine objects as students and the prototype as a shared “classroom” whiteboard.\
+> Imagine objects as students and the prototype as a shared “classroom” whiteboard.
 > All students can read from the whiteboard — but none of them own it individually.
 
 ### ✅ Example: Without Prototype
@@ -1406,10 +1297,3 @@ d1.bark(); // barking... (from Dog)
 |`__proto__`|Property on objects (link to prototype)|
 |`Prototype Chain`|Lookup path when accessing properties|
 |Inheritance|Objects get methods from their prototype|
-\
-
-\
-
-\
-
-\
